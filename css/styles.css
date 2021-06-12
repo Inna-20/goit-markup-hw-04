@@ -291,6 +291,8 @@ body {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .feature-list .item-list + .item-list {
@@ -302,8 +304,7 @@ body {
 
 .icons-list {
   margin: 0 auto;
-  margin-top: 16px;
-  padding: 0px 32px 30px;
+  padding: 16px 32px 30px;
   display: flex;
   justify-content: center;
 }
@@ -397,19 +398,21 @@ body {
 .address-conteiner .conteiner {
   display: flex;
   padding-top: 60px;
+  align-items: baseline;
   padding-bottom: 60px;
 }
 .logo-link-footer {
+  display: flex;
   color: var(--white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .adress-list .adress {
-  margin-top: 20px;
   margin-bottom: 9px;
 }
 .adress-list .contact {
@@ -454,6 +457,8 @@ body {
 }
 .accede h3 {
   margin-top: 0;
+  font-size: 14px;
+  text-transform: uppercase;
   color: var(--white-color);
 }
 
